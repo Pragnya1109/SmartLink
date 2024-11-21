@@ -1,4 +1,4 @@
-# ShortLink
+# SmartLink
 
 A feature-rich web application to shorten long URLs, generate QR codes for the shortened links, and track the number of clicks on each link. Designed with modern UI/UX principles and optimized for scalability and usability.
 
