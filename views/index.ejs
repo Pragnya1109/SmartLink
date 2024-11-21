@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener</title>
+    <link rel="stylesheet" href="./public/css/styles.css">
+</head>
+
+<body>
+    <h1>URL Shortener</h1>
+    <form id="shortenForm" action="/api/shorten" method="POST">
+        <input id="fullUrl" type="text" name="fullUrl" placeholder="Enter URL" required>
+        <button type="submit">Shorten URL</button>
+    </form>
+
+    <div id="result" style="display:none;">
+        <input id="shortUrl" type="text" readonly>
+        <button id="copyButton">Copy</button>
+        <img id="qrCode" src="" alt="QR Code">
+    </div>
+
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
